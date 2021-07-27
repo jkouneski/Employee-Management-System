@@ -1,7 +1,7 @@
 {
-  "name": "employee-management-system",
+  "name": "Employee-Management-System",
   "version": "1.0.0",
-  "description": "Employee tracking system using SQL database",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/jkouneski/Employee-Management-System.git"
   },
-  "author": "Joey Kouneski",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jkouneski/Employee-Management-System/issues"
   },
