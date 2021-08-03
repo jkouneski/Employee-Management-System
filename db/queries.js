@@ -16,6 +16,12 @@ class DB {
             "SELECT department.name FROM department;"
         );
     }
+
+    findAllRoles() {
+        return this.connection.query(
+            "SELECT role.title, role.salary, role.department_id FROM role;"
+        );
+    }
 }
 
 

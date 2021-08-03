@@ -14,3 +14,10 @@ async function viewDepartments () {
 }
 
 viewDepartments();
+
+async function viewRoles () {
+    let roles = await db.findAllRoles();
+    console.log(roles); 
+}
+
+viewRoles();
