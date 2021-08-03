@@ -7,3 +7,10 @@ async function viewEmployees () {
 }
 
 viewEmployees();
+
+async function viewDepartments () {
+    let departments = await db.findAlldepartments();
+    console.log(departments); 
+}
+
+viewDepartments();

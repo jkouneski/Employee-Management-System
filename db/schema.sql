@@ -4,14 +4,12 @@ CREATE DATABASE employees;
 
 USE employees;
 
---department table--
 CREATE TABLE department (
     id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(30) NOT NULL,
     PRIMARY KEY (id)
 );
 
---role table--
 CREATE TABLE role (
     id INT NOT NULL AUTO_INCREMENT,
     title VARCHAR(30),
@@ -20,7 +18,7 @@ CREATE TABLE role (
     PRIMARY KEY (id),
 );
 
---employee table--
+
 CREATE TABLE employee (
     id INT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(30) NOT NULL,
