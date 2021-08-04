@@ -68,7 +68,7 @@ VALUES
         4
     );
 
-INSERT INTO employee (first_name, last_name, role_id, manager_ID)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
     (
         'Jeff',
